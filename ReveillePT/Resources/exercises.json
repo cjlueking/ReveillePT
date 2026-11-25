@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "note": "Starting goals sit below normal adult ranges. Confirm with your PT. The app later personalizes: goal = 90% of best measured at last check-in, +5 per phase, capped at normalRange.",
+  "exercises": [
+    {
+      "id": "angled_shoulder_raise", "name": "Angled shoulder raise", "area": "shoulder", "view": "front", "side": "both",
+      "measure": { "kind": "jointAngle", "a": "rightHip", "b": "rightShoulder", "c": "rightWrist" },
+      "startAngle": 20, "goalAngle": 140, "normalRange": 175, "holdSec": 2, "unit": "deg",
+      "cue": "Raise both arms forward and up in a V, thumbs up."
+    },
+    {
+      "id": "backward_shoulder_raise", "name": "Backward shoulder raise", "area": "shoulder", "view": "side", "side": "both",
+      "measure": { "kind": "jointAngle", "a": "rightHip", "b": "rightShoulder", "c": "rightWrist" },
+      "startAngle": 5, "goalAngle": 40, "normalRange": 55, "holdSec": 2, "unit": "deg",
+      "cue": "Keep arms straight and lift them back behind you."
+    },
+    {
+      "id": "side_shoulder_raise", "name": "Side shoulder raise", "area": "shoulder", "view": "front", "side": "both",
+      "measure": { "kind": "jointAngle", "a": "rightHip", "b": "rightShoulder", "c": "rightWrist" },
+      "startAngle": 20, "goalAngle": 130, "normalRange": 150, "holdSec": 2, "unit": "deg",
+      "cue": "Lift both arms out to the sides and up, palms forward."
+    },
+    {
+      "id": "wide_shoulder_stretch", "name": "Wide shoulder stretch", "area": "shoulder", "view": "front", "side": "both",
+      "measure": { "kind": "jointAngle", "a": "rightHip", "b": "rightShoulder", "c": "rightWrist" },
+      "startAngle": 20, "goalAngle": 80, "normalRange": 90, "holdSec": 20, "unit": "deg",
+      "cue": "Open your arms wide at shoulder height and gently squeeze back."
+    },
+    {
+      "id": "shoulder_blade_pinch", "name": "Shoulder blade pinch", "area": "upper_back", "view": "side", "side": "both",
+      "measure": { "kind": "timedHold" },
+      "startAngle": 0, "goalAngle": 0, "normalRange": 0, "holdSec": 5, "unit": "sec",
+      "cue": "Squeeze your shoulder blades back and down. Hold."
+    },
+    {
+      "id": "shoulder_shrug", "name": "Shoulder shrugs", "area": "upper_back", "view": "front", "side": "both",
+      "measure": { "kind": "shrugRatio" },
+      "startAngle": 0, "goalAngle": 15, "normalRange": 30, "holdSec": 1, "unit": "pct",
+      "cue": "Lift both shoulders toward your ears, then relax down."
+    },
+    {
+      "id": "neck_bend", "name": "Neck bend", "area": "neck", "view": "side", "side": "none",
+      "measure": { "kind": "neckSagittal", "direction": "forward" },
+      "startAngle": 5, "goalAngle": 35, "normalRange": 50, "holdSec": 2, "unit": "deg",
+      "cue": "Slowly lower your chin toward your chest."
+    },
+    {
+      "id": "neck_extension", "name": "Neck extension", "area": "neck", "view": "side", "side": "none",
+      "measure": { "kind": "neckSagittal", "direction": "back" },
+      "startAngle": 5, "goalAngle": 40, "normalRange": 75, "holdSec": 2, "unit": "deg",
+      "cue": "Slowly tilt your head back to look up."
+    },
+    {
+      "id": "neck_rotation_right", "name": "Neck rotation · right", "area": "neck", "view": "front", "side": "right",
+      "measure": { "kind": "neckRotation" },
+      "startAngle": 5, "goalAngle": 60, "normalRange": 80, "holdSec": 2, "unit": "deg",
+      "cue": "Keep your chin level and turn to look over your right shoulder."
+    },
+    {
+      "id": "neck_rotation_left", "name": "Neck rotation · left", "area": "neck", "view": "front", "side": "left",
+      "measure": { "kind": "neckRotation" },
+      "startAngle": 5, "goalAngle": 60, "normalRange": 80, "holdSec": 2, "unit": "deg",
+      "cue": "Keep your chin level and turn to look over your left shoulder."
+    },
+    {
+      "id": "neck_side_bend_right", "name": "Neck side bend · right", "area": "neck", "view": "front", "side": "right",
+      "measure": { "kind": "neckLateral" },
+      "startAngle": 5, "goalAngle": 35, "normalRange": 45, "holdSec": 2, "unit": "deg",
+      "cue": "Bring your right ear toward your right shoulder."
+    },
+    {
+      "id": "neck_side_bend_left", "name": "Neck side bend · left", "area": "neck", "view": "front", "side": "left",
+      "measure": { "kind": "neckLateral" },
+      "startAngle": 5, "goalAngle": 35, "normalRange": 45, "holdSec": 2, "unit": "deg",
+      "cue": "Bring your left ear toward your left shoulder."
+    },
+    {
+      "id": "neck_rotation_stretch", "name": "Neck rotation stretch", "area": "neck", "view": "front", "side": "both",
+      "measure": { "kind": "neckRotation" },
+      "startAngle": 5, "goalAngle": 50, "normalRange": 80, "holdSec": 20, "unit": "deg",
+      "cue": "Turn your head and use your hand to gently guide it a little further."
+    },
+    {
+      "id": "neck_side_stretch", "name": "Neck side stretch", "area": "neck", "view": "front", "side": "both",
+      "measure": { "kind": "neckLateral" },
+      "startAngle": 5, "goalAngle": 30, "normalRange": 45, "holdSec": 20, "unit": "deg",
+      "cue": "Tilt your head and rest your hand on top for a gentle stretch."
+    },
+    {
+      "id": "levator_scapulae_stretch", "name": "Levator scapulae stretch", "area": "neck", "view": "front", "side": "both",
+      "measure": { "kind": "timedHold" },
+      "startAngle": 0, "goalAngle": 0, "normalRange": 0, "holdSec": 20, "unit": "sec",
+      "cue": "Turn your head toward your armpit, look down, and gently guide with your hand."
+    }
+  ],
+  "program": {
+    "name": "Upper back & neck",
+    "items": [
+      { "exercise": "angled_shoulder_raise", "reps": 14 },
+      { "exercise": "backward_shoulder_raise", "reps": 14 },
+      { "exercise": "side_shoulder_raise", "reps": 14 },
+      { "exercise": "wide_shoulder_stretch", "reps": 3 },
+      { "exercise": "shoulder_blade_pinch", "reps": 10 },
+      { "exercise": "shoulder_shrug", "reps": 10 },
+      { "exercise": "shoulder_blade_pinch", "reps": 10 },
+      { "exercise": "shoulder_shrug", "reps": 10 },
+      { "exercise": "neck_bend", "reps": 6 },
+      { "exercise": "neck_extension", "reps": 6 },
+      { "exercise": "neck_rotation_right", "reps": 12 },
+      { "exercise": "neck_rotation_left", "reps": 12 },
+      { "exercise": "neck_side_bend_right", "reps": 12 },
+      { "exercise": "neck_side_bend_left", "reps": 12 },
+      { "exercise": "neck_bend", "reps": 6 },
+      { "exercise": "neck_extension", "reps": 6 },
+      { "exercise": "neck_rotation_stretch", "reps": 4 },
+      { "exercise": "neck_side_stretch", "reps": 4 },
+      { "exercise": "levator_scapulae_stretch", "reps": 2 }
+    ]
+  }
+}
