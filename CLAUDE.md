@@ -24,6 +24,12 @@ and saves progress. Testers: Chris Lueking and Irene Lueking (two local profiles
 Work one step at a time. A step is done only when its test passes on a real device. See `docs/build-plan.md`.
 Current status is tracked in `docs/build-plan.md` (Status column).
 
+## Branches
+- `main`: live. Only what has shipped (TestFlight / App Store). Never commit directly.
+- `dev`: working version that hasn't gone live yet. Everything merges here first.
+- `build/...` or `feature/...`: one per step or feature, branched from `dev`, merged back into `dev` by pull request once its device test passes.
+- Release: merge `dev` into `main` and tag it (e.g. `v0.1.0`).
+
 ## Commands
 - Generate project: `xcodegen` (install once with `brew install xcodegen`)
 - Unit tests: `xcodebuild test -scheme ReveillePT -destination 'platform=iOS Simulator,name=iPhone 16'`
